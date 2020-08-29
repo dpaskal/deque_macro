@@ -5,7 +5,7 @@
 #include <cstring>
 
 
-#define deque_define(type)                      \
+#define deque_define(type)                         \
 	struct deque_##type##_iter;	                   \
 	struct deque_##type {                          \
 		char type_name[strlen("deque_"#type)+1];   \
